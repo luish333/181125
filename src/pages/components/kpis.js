@@ -1,17 +1,14 @@
 import React from 'react';
 
-
-
 function Kpis() {
     return (
-
         <div className="content-wrapper">
             {/* Content Header (Page header) */}
             <div className="content-header">
                 <div className="container-fluid">
                     <div className="row mb-2">
                         <div className="col-sm-6">
-                            <h1 className="m-0">Dashboard</h1>
+                            <h1 className="m-0">Panel de control</h1>
                         </div>{/* /.col */}
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
@@ -32,8 +29,8 @@ function Kpis() {
                             {/* small box */}
                             <div className="small-box bg-info">
                                 <div className="inner">
-                                    <h3>150</h3>
-                                    <p>New Orders</p>
+                                    <h3>1.150</h3>
+                                    <p>Matriculas realizadas</p>
                                 </div>
                                 <div className="icon">
                                     <i className="ion ion-bag" />
@@ -90,7 +87,6 @@ function Kpis() {
             </section>
             {/* /.content */}
         </div>
-
 
     );
 }
